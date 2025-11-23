@@ -1,0 +1,1 @@
+This text is form compressedRead.txt file will be used to compress

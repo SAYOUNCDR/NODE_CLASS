@@ -1,0 +1,15 @@
+{
+  "name": "int222-nodejs",
+  "version": "1.0.0",
+  "description": "This repository contains a tiny set of example files that demonstrate how Node.js modules work: core (built-in) modules, local modules (files you create), and third-party modules installed from npm.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express-session": "^1.18.2"
+  }
+}

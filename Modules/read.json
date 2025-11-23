@@ -1,0 +1,13 @@
+
+{
+    "name" : "Sayoun parui",
+    "age" : 19,
+    "city" : "Kolkata",
+    "isStudent" : true,
+    "course": "INT222",
+    "subjects": ["NodeJs", "React"],
+    "address": {
+        "street": "123 Main St",
+        "zip": "700001"
+    }
+}

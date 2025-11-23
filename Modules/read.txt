@@ -1,0 +1,1 @@
+This is test data insrted from StreamWrite.js file to read.txt and will be used to read from StreaRead.js

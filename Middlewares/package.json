@@ -1,0 +1,18 @@
+{
+  "name": "middlewares",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon TestMiddleware.js",
+    "middleware2": "nodemon Middleware02.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-validator": "^7.3.0",
+    "nodemon": "^3.1.11"
+  }
+}
