@@ -1,10 +1,10 @@
-import fs from "fs";
+const fs = require('fs')
 
-const writejsonFilePath = "E:\\INT222-NodeJs\\Modules\\write.json";
+const writejsonFilePath = "D://INT222-NodeJs//Modules//write.json";
 
 const employeeData = {
   name: "Sayoun",
-  emp_id: "12345",
+  emp_id: "12",
   salary: 67000,
   department: "IT",
 };

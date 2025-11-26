@@ -33,7 +33,7 @@ app.post(
       .withMessage("Invalid email format"),
 
     body("password")
-      .isLength({ min: 8 })
+      .isLength({ min: 8 , max: 20})
       .withMessage("Password must be at least 8 characters long"),
     body("username")
       .trim()

@@ -5,7 +5,7 @@ const app = express();
 const log = (req, res, next) => {
   const log = `Request method: ${req.method} | url: ${
     req.url
-  } | time: ${new Date().toString()}\n`;
+  } | time: ${new Date().toLocaleString()}\n`;
   fs.appendFile("server.log", log, (err) => {
     if (err) {
       console.log("Unable to append to server.log.");
