@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products — Add</title>
+    <title>Products Page</title>
     <style>
         :root {
             --bg: #f5f6f7;
@@ -148,11 +148,11 @@
             <form action="/add" method="post" novalidate>
                 <div class="input-group">
                     <label for="name">Product name</label>
-                    <input id="name" name="name" type="text" placeholder="Enter name" required>
+                    <input id="name" name="name" type="text" placeholder="Enter product name" required>
                 </div>
 
                 <div class="input-group">
-                    <label for="price">Price (USD)</label>
+                    <label for="price">Price (Rs)</label>
                     <input id="price" name="price" type="number" step="0.01" placeholder="0.00" required>
                 </div>
 
@@ -196,7 +196,7 @@
                 </div>
 
                 <div class="input-group">
-                    <label for="newPrice">New Price (USD)</label>
+                    <label for="newPrice">New Price (Rs)</label>
                     <input id="newPrice" name="newPrice" type="number" step="0.01" placeholder="0.00" required>
                 </div>
 
